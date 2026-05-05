@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Хеппі Мурздей Кідс — Музична школа для дітей</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    .glass { background: rgba(255,255,255,0.75); backdrop-filter: blur(16px); }
+    .hero-bg { background: linear-gradient(135deg, #fff0f5 0%, #f8e1eb 100%); }
+    .pink-gradient { background: linear-gradient(135deg, #ff69b4, #ff1493); }
+    .timer {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Hero -->
+  <section class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-8">
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+          Зробимо вашу дитину<br>
+          <span class="pink-gradient bg-clip-text text-transparent">професійним музикантом</span>
+        </h1>
+     
+        <p class="text-2xl text-gray-600">
+          Від 4 років. Без покупки інструментів.<br>
+          Заняття на телефоні, планшеті чи комп'ютері.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#zapys" class="px-10 py-5 bg-pink-500 hover:bg-pink-600 text-white rounded-3xl text-xl font-medium transition-all shadow-xl shadow-pink-300">
+            Записатись на вступне заняття
+          </a>
+          <a href="#ne prosto urok" class="px-10 py-5 border-2 border-gray-800 rounded-3xl text-xl font-medium hover:bg-gray-100 transition-all">
+            Дивитись програму
+          </a>
+        </div>
+        <div class="flex items-center gap-8 text-sm">
+          <div class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500"></i>
+            <span>від 4 років</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500"></i>
+            <span>Дипломовані викладачі</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <i class="fas fa-check text-green-500"></i>
+            <span>Онлайн • Електронна музика</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mascot -->
+      <div class="flex justify-center">
+        <div class="relative">
+          <img id="mascot" src="https://i.postimg.cc/zDLpWpCP/ava-1-1-krug.png"
+               alt="Мурздей — маскот Хеппі Мурздей Кідс"
+               class="w-96 drop-shadow-2xl rounded-3xl">
+          <div class="absolute -top-4 -right-4 bg-white rounded-2xl px-6 py-3 shadow-xl text-xl font-medium flex items-center gap-3">
+            🎉 Мууур-зика!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Творчий розвиток -->
+  <section id="ne prosto urok" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Не просто уроки — розвиток таланту</h2>
+      <p class="max-w-2xl mx-auto text-xl text-gray-600">
+        Ми допомагаємо дитині розкрити творчий потенціал, розвинути почуття ритму, стилю, смак і впевненість у собі.
+        Музика вчить дисципліні, емоційному інтелекту та креативному мисленню.
+      </p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Чому обирають Хеппі Мурздей Кідс</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="glass p-10 rounded-3xl border border-pink-100 hover:border-pink-300 transition-all">
+          <div class="text-5xl mb-6">🎹</div>
+          <h3 class="text-2xl font-semibold mb-3">Будь ким захочеш</h3>
+          <p class="text-gray-600">Музикант, бітмейкер, діджей, продюсер чи звукорежисер — допоможемо знайти сильні сторони дитини та розвинути їх.</p>
+        </div>
+        <div class="glass p-10 rounded-3xl border border-pink-100 hover:border-pink-300 transition-all">
+          <div class="text-5xl mb-6">📱</div>
+          <h3 class="text-2xl font-semibold mb-3">Без інструментів</h3>
+          <p class="text-gray-600">Заняття проходять повністю онлайн на будь-якому пристрої: смартфон, планшет, ноутбук або комп'ютер. Це гнучко та економно.</p>
+        </div>
+        <div class="glass p-10 rounded-3xl border border-pink-100 hover:border-pink-300 transition-all">
+          <div class="text-5xl mb-6">👩‍🏫</div>
+          <h3 class="text-2xl font-semibold mb-3">Професійні викладачі</h3>
+          <p class="text-gray-600">Дипломовані музиканти з великим досвідом роботи саме з дітьми. А ще ми дуже любимо те, що робимо!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Як проходять заняття -->
+  <section id="yak prohodyat" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Як проходять заняття</h2>
+      <!-- (залишив без змін, як у тебе) -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+          <div class="flex gap-6">
+            <div class="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">📅</div>
+            <div>
+              <h3 class="text-2xl font-semibold mb-2">1 заняття на тиждень</h3>
+              <p class="text-gray-600">Ви можете обирати зручний день і час для занять.</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🚀</div>
+            <div>
+              <h3 class="text-2xl font-semibold mb-2">Ефективні методи навчання без необхідності участі батьків</h3>
+              <p class="text-gray-600">Система побудована так, щоб дитина могла поетапно проходити навчання і виконувати завдання самостійно. Матеріал подається у форматі гри з квестами та нагородами.</p>
+            </div>
+          </div>
+          <div class="flex gap-6">
+            <div class="w-12 h-12 bg-pink-100 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">🔍</div>
+            <div>
+              <h3 class="text-2xl font-semibold mb-2">Перші 2 місяці — знайомство</h3>
+              <p class="text-gray-600">8 занять по 45 хвилин. За цей час ми м’яко визначимо, до чого дитина має найбільше таланту та інтересу.</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-50 border border-pink-100 rounded-3xl p-10">
+          <h3 class="text-2xl font-semibold mb-6">Гнучкість — наше головне правило</h3>
+          <ul class="space-y-5 text-gray-700">
+            <li class="flex gap-3"><span class="text-pink-500">✓</span> Профіль можна змінити в будь-який момент</li>
+            <li class="flex gap-3"><span class="text-pink-500">✓</span> Можна поєднувати кілька напрямків</li>
+            <li class="flex gap-3"><span class="text-pink-500">✓</span> Після року навчання — офіційний сертифікат</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Програма, Хто ми (без змін) -->
+  <!-- ... (твій код залишається) ... -->
+
+  <!-- CTA з таймером -->
+  <section id="zapys" class="py-24 pink-gradient text-white text-center relative overflow-hidden">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="inline-flex items-center gap-3 bg-white/20 backdrop-blur-md px-6 py-2 rounded-3xl mb-6">
+        <span class="text-yellow-300">⏰</span>
+        <span class="font-medium">Знижка 5% діє ще</span>
+      </div>
+
+      <div id="timer" class="timer text-white mb-8 font-mono">59:59</div>
+
+      <h2 class="text-5xl font-bold mb-6">Готові розкрити талант вашої дитини?</h2>
+      <p class="text-2xl mb-10">Вступне заняття — знайомство з дитиною та визначення її рівня</p>
+      
+      <a href="https://t.me/+OJ_LYaWMLCUwMWRi" target="_blank"
+         class="inline-block px-14 py-7 bg-white text-pink-600 rounded-3xl text-2xl font-semibold hover:scale-105 transition-all shadow-2xl">
+        Записатись на вступне заняття →
+      </a>
+
+      <p class="mt-8 text-lg opacity-90">Місця в групах обмежені • Середній вік дітей 6–10 років</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-3xl font-bold mb-2">Хеппі Мурздей Кідс</p>
+      <p class="text-pink-400">Музика майбутнього починається сьогодні</p>
+      <p class="mt-10 text-gray-400">© 2026 Хеппі Мурздей Кідс. Усі права захищені.</p>
+    </div>
+  </footer>
+
+  <!-- Таймер -->
+  <script>
+    let timeLeft = 60 * 60; // 60 хвилин в секундах
+
+    function updateTimer() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      document.getElementById('timer').textContent = 
+        `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+      
+      if (timeLeft > 0) timeLeft--;
+      else timeLeft = 60 * 60; // перезапуск
+    }
+
+    setInterval(updateTimer, 1000);
+    updateTimer(); // перший запуск
+  </script>
+
+</body>
+</html>
